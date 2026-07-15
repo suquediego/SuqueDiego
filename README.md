@@ -2,7 +2,7 @@
 
 # Diego Suque
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1400&color=0969DA&center=true&vCenter=true&width=900&lines=Product+Designer;Complex+flows+made+simple;Design+Systems+%26+AI-assisted+prototyping" alt="Product Designer — Complex flows made simple" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=25&pause=1400&color=0969DA&center=true&vCenter=true&width=900&lines=Product+Designer;Complex+flows+made+simple;Design+Systems+%26+AI-assisted+prototyping" alt="Product Designer — Complex flows made simple" />
 
 Product Designer focused on turning complex business problems into clear, useful and implementation-ready digital products.
 
