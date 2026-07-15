@@ -88,20 +88,26 @@ My process goes from discovery and journey mapping to high-fidelity prototypes, 
 
 ## Toolkit
 
-<div align="center">
+### Product & UX
 
-![Figma](https://img.shields.io/badge/Figma-Design_%26_Prototype-111827?style=flat-square&logo=figma&logoColor=F24E1E)
-![FigJam](https://img.shields.io/badge/FigJam-Collaboration-111827?style=flat-square&logo=figma&logoColor=A259FF)
-![Research](https://img.shields.io/badge/UX-Research-5B21B6?style=flat-square)
-![Design Systems](https://img.shields.io/badge/Design-Systems-7C3AED?style=flat-square)
-![Accessibility](https://img.shields.io/badge/WCAG-Accessibility-8B5CF6?style=flat-square)
-![React](https://img.shields.io/badge/React-Functional_UI-0F172A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-Prototyping-1E3A8A?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-Design_to_Code-164E63?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
-![Claude](https://img.shields.io/badge/Claude-AI_Workflow-3F3F46?style=flat-square)
-![Codex](https://img.shields.io/badge/Codex-AI_Collaboration-111827?style=flat-square)
+![Discovery](https://img.shields.io/badge/Discovery-111827?style=for-the-badge)
+![UX Research](https://img.shields.io/badge/UX_Research-5B21B6?style=for-the-badge)
+![User Flows](https://img.shields.io/badge/User_Flows-6D28D9?style=for-the-badge)
+![Design Systems](https://img.shields.io/badge/Design_Systems-7C3AED?style=for-the-badge)
+![Accessibility](https://img.shields.io/badge/WCAG-8B5CF6?style=for-the-badge)
+![Product Metrics](https://img.shields.io/badge/Product_Metrics-A78BFA?style=for-the-badge&logoColor=white)
 
-</div>
+### Tools & prototyping
+
+<p>
+  <img src="https://skillicons.dev/icons?i=figma,react,ts,nextjs,tailwind,git&theme=dark" alt="Figma, React, TypeScript, Next.js, Tailwind CSS and Git" />
+</p>
+
+### AI-assisted workflow
+
+![Claude](https://img.shields.io/badge/Claude-Explore_%26_Prototype-3F3F46?style=for-the-badge)
+![Codex](https://img.shields.io/badge/Codex-Design_to_Code-111827?style=for-the-badge)
+![AI Collaboration](https://img.shields.io/badge/AI-Human_in_the_Loop-0F766E?style=for-the-badge)
 
 ## Eating commits, one pixel at a time
 
