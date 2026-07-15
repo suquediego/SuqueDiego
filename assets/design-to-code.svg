@@ -1,67 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Animated product design process presented as an arcade game">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="275" viewBox="0 0 900 275" role="img" aria-labelledby="title desc">
+  <title id="title">Product design arcade</title>
+  <desc id="desc">An animated arcade scene showing the product process from discovery to design, delivery and learning.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b14"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <style>
+      .pacman { animation: travel 8s linear infinite; }
+      .ghost { animation: chase 8s linear infinite; }
+      .mouth { transform-origin: 0 0; animation: chomp .28s ease-in-out infinite alternate; }
+      .pellet { animation: pulse 1s ease-in-out infinite alternate; }
+      @keyframes travel {
+        0%, 6% { transform: translate(62px, 222px); }
+        92% { transform: translate(838px, 222px); }
+        92.01%, 100% { transform: translate(62px, 222px); }
+      }
+      @keyframes chase {
+        0%, 6% { transform: translate(22px, 222px); }
+        92% { transform: translate(798px, 222px); }
+        92.01%, 100% { transform: translate(22px, 222px); }
+      }
+      @keyframes chomp { from { transform: scaleY(1); } to { transform: scaleY(.15); } }
+      @keyframes pulse { from { opacity: .65; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pacman, .ghost, .mouth, .pellet { animation: none; }
+        .pacman { transform: translate(460px, 222px); }
+        .ghost { transform: translate(400px, 222px); }
+      }
+    </style>
   </defs>
 
-  <rect width="900" height="300" rx="24" fill="url(#bg)"/>
-  <path d="M22 22H878V278H22V22M38 38V202H862V38H38" fill="none" stroke="#2563eb" stroke-width="4"/>
-  <path d="M38 248H862" fill="none" stroke="#2563eb" stroke-width="4"/>
-  <text x="450" y="61" text-anchor="middle" fill="#f8fafc" font-family="'Courier New',monospace" font-size="17" font-weight="700" letter-spacing="3">PRODUCT DESIGN — ARCADE MODE</text>
+  <rect width="900" height="275" rx="24" fill="url(#bg)"/>
+  <path d="M22 22H878V253H22V22M38 38V190H862V38H38" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M38 247H862" fill="none" stroke="#2563eb" stroke-width="4"/>
+
+  <text x="450" y="50" text-anchor="middle" fill="#f8fafc" font-family="'Courier New',monospace" font-size="18" font-weight="700" letter-spacing="3">HOW I TURN COMPLEXITY INTO PRODUCT</text>
 
   <g font-family="'Courier New',monospace">
     <g>
-      <rect x="58" y="86" width="226" height="94" rx="8" fill="#111827" stroke="#facc15" stroke-width="2"/>
-      <text x="78" y="111" fill="#facc15" font-size="11" font-weight="700">LEVEL 01</text>
-      <text x="78" y="139" fill="#f8fafc" font-size="19" font-weight="700">DISCOVER</text>
-      <text x="78" y="162" fill="#94a3b8" font-size="12">users · context · metrics</text>
+      <rect x="52" y="73" width="244" height="99" rx="9" fill="#111827" stroke="#facc15" stroke-width="2"/>
+      <text x="72" y="101" fill="#facc15" font-size="12" font-weight="700">LEVEL 01</text>
+      <text x="72" y="132" fill="#f8fafc" font-size="22" font-weight="700">DISCOVER</text>
+      <text x="72" y="156" fill="#94a3b8" font-size="14">Users · context · metrics</text>
     </g>
     <g>
-      <rect x="337" y="86" width="226" height="94" rx="8" fill="#111827" stroke="#a855f7" stroke-width="2"/>
-      <text x="357" y="111" fill="#c084fc" font-size="11" font-weight="700">LEVEL 02</text>
-      <text x="357" y="139" fill="#f8fafc" font-size="19" font-weight="700">DESIGN</text>
-      <text x="357" y="162" fill="#94a3b8" font-size="12">Figma · systems · prototype</text>
+      <rect x="328" y="73" width="244" height="99" rx="9" fill="#111827" stroke="#a855f7" stroke-width="2"/>
+      <text x="348" y="101" fill="#c084fc" font-size="12" font-weight="700">LEVEL 02</text>
+      <text x="348" y="132" fill="#f8fafc" font-size="22" font-weight="700">DESIGN</text>
+      <text x="348" y="156" fill="#94a3b8" font-size="14">Flows · systems · prototype</text>
     </g>
     <g>
-      <rect x="616" y="86" width="226" height="94" rx="8" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
-      <text x="636" y="111" fill="#67e8f9" font-size="11" font-weight="700">LEVEL 03</text>
-      <text x="636" y="139" fill="#f8fafc" font-size="19" font-weight="700">SHIP</text>
-      <text x="636" y="162" fill="#94a3b8" font-size="12">React · handoff · learning</text>
+      <rect x="604" y="73" width="244" height="99" rx="9" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+      <text x="624" y="101" fill="#67e8f9" font-size="12" font-weight="700">LEVEL 03</text>
+      <text x="624" y="132" fill="#f8fafc" font-size="22" font-weight="700">SHIP &amp; LEARN</text>
+      <text x="624" y="156" fill="#94a3b8" font-size="14">Handoff · measure · improve</text>
     </g>
   </g>
 
   <g fill="#fde047" filter="url(#glow)">
-    <circle cx="112" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin=".5s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="158" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin=".9s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="204" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="1.4s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="250" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="1.8s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="296" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="2.3s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="342" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="2.7s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="388" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="3.2s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="434" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="3.6s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="480" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="4.1s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="526" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="4.5s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="572" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="5s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="618" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="5.4s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="664" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="5.9s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="710" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="6.3s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="756" cy="225" r="4"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="6.8s" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="802" cy="225" r="8"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.02;.93;1" begin="7.2s" dur="8s" repeatCount="indefinite"/></circle>
+    <circle class="pellet" cx="105" cy="222" r="4"/>
+    <circle class="pellet" cx="151" cy="222" r="4"/>
+    <circle class="pellet" cx="197" cy="222" r="4"/>
+    <circle class="pellet" cx="243" cy="222" r="4"/>
+    <circle class="pellet" cx="289" cy="222" r="4"/>
+    <circle class="pellet" cx="335" cy="222" r="4"/>
+    <circle class="pellet" cx="381" cy="222" r="4"/>
+    <circle class="pellet" cx="427" cy="222" r="4"/>
+    <circle class="pellet" cx="473" cy="222" r="4"/>
+    <circle class="pellet" cx="519" cy="222" r="4"/>
+    <circle class="pellet" cx="565" cy="222" r="4"/>
+    <circle class="pellet" cx="611" cy="222" r="4"/>
+    <circle class="pellet" cx="657" cy="222" r="4"/>
+    <circle class="pellet" cx="703" cy="222" r="4"/>
+    <circle class="pellet" cx="749" cy="222" r="4"/>
+    <circle class="pellet" cx="805" cy="222" r="9"/>
   </g>
 
-  <g filter="url(#glow)">
-    <animateTransform attributeName="transform" type="translate" values="64 225;836 225;836 225;64 225" keyTimes="0;.88;.9;1" dur="8s" repeatCount="indefinite"/>
-    <circle r="18" fill="#facc15"/>
-    <path d="M0 0L22 -11L22 11Z" fill="#070b14">
-      <animateTransform attributeName="transform" type="scale" values="1 1;1 .15;1 1" dur=".32s" repeatCount="indefinite"/>
-    </path>
+  <g class="ghost" filter="url(#glow)">
+    <path d="M-18 18V0a18 18 0 0 1 36 0v18l-7-5-6 5-6-5-6 5-6-5-5 5Z" fill="#f472b6"/>
+    <circle cx="-7" cy="-2" r="5" fill="#fff"/><circle cx="7" cy="-2" r="5" fill="#fff"/>
+    <circle cx="-5" cy="-2" r="2" fill="#1e3a8a"/><circle cx="9" cy="-2" r="2" fill="#1e3a8a"/>
   </g>
 
-  <text x="450" y="270" text-anchor="middle" fill="#64748b" font-family="'Courier New',monospace" font-size="11" letter-spacing="2">DISCOVER → DESIGN → SHIP → LEARN → REPEAT</text>
+  <g class="pacman" filter="url(#glow)">
+    <circle r="22" fill="#facc15"/>
+    <path class="mouth" d="M0 0L27 -14L27 14Z" fill="#070b14"/>
+  </g>
 </svg>
