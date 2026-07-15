@@ -74,7 +74,7 @@ My work connects user needs, business goals and technical feasibility — from d
 
 Product design, code, jiu-jitsu, cooking and an unreasonable amount of **One Piece**.
 
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHoybXhodXNyM2k2azB5ZGFyamR2ZTEzdzI0dWR3dzZvZDFlbWl3ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1rFG5pGCiUixq/200w.gif" width="440" alt="Luffy celebrating from One Piece" />
+<img src="https://media1.tenor.com/m/LElrAxuxUBoAAAAC/one-piece.gif" width="440" alt="Luffy from One Piece" />
 
 ### Good design makes complexity feel simple.
 
