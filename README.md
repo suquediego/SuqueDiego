@@ -20,6 +20,14 @@
 
 <img src="./assets/design-to-code.svg" width="100%" alt="Discover, design and ship process" />
 
+<h2>Contribution game</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suquediego/SuqueDiego/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suquediego/SuqueDiego/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated contribution graph for Diego Suque" src="https://raw.githubusercontent.com/suquediego/SuqueDiego/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
 <h2>What I work with</h2>
 
 <p>
